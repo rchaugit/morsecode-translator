@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Morse Code Translator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <div>
+    <h1> Morse Code Translator</h1>
+    <h2> Morese to Eng - please split your characters with a space, and words with 4 spaces.</h2>
+  </div>
+
+  <div>
+    <form id="morseform">
+      <label for="input">Input to be translated:</label>
+      <input id="input" type="text" id="str"/>
+      <button id="engToMor">English to Morse</button>
+      <button id="morToEng">Morse to English</button>
+    </form>
+  
+  </div>
+
+  <div class="outputdisplay"> 
+    <p id="outputdisplay"></p>
+  </div>
+
+  <script type="module" src="./morseKey.js"></script>
+  <script type="module" src="./functions.js"></script>
+  <script type="module" src="./dom.js"></script>
+
+</body>
+</html>
